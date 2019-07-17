@@ -92,6 +92,10 @@ repositories:
   urls:
   - http://repo.ros2.org/ubuntu/testing
   - http://repositories.ros.org/ubuntu/main
+skip_rosdep_keys:
+- fastcdr
+- fastrtps
+- urdfdom_headers
 targets:
   ubuntu:
     bionic:
