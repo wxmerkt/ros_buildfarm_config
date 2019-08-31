@@ -98,7 +98,7 @@ repositories:
   - http://repositories.ros.org/ubuntu/main
 targets:
   _config:
-    custom_rosdep_sources:
+    custom_rosdep_urls:
     - https://raw.githubusercontent.com/nuclearsandwich/rosdistro/stretchy-ros2/rosdep/sources.list.d/20-default.list
   debian:
     stretch:
