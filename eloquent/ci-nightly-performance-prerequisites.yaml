@@ -29,7 +29,7 @@ jenkins_job_timeout: 300
 package_selection_args: '--packages-up-to buildfarm_perf_tests --packages-skip performance_test buildfarm_perf_tests --packages-skip-regex .*connext.*'
 repos_files:
 - https://github.com/ros2/ros2/raw/master/ros2.repos
-- https://gist.githubusercontent.com/cottsay/d3ed9d3c7ed32165fdb987a09d434661/raw/ros2.repos
+- https://github.com/ros2/buildfarm_perf_tests/raw/master/tools/ros2_dependencies.repos
 repositories:
   keys:
   - |
